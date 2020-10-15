@@ -21,7 +21,7 @@ After setup, execute this:
 &nbsp;&nbsp;&nbsp;unexpand -a mix.cfg  
     
 Go to user mix:  
-&nbsp;su - mix  
+&nbsp;&nbsp;&nbsp;su - mix  
     
 Starting mixmaster the first time:  
 &nbsp;&nbsp;&nbsp;mixmaster -G  

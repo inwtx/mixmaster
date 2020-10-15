@@ -17,7 +17,7 @@ Copy the libcrypto.so.1.0.0 file to /usr/lib/x86_64-linux-gnu/
     
 III.
 Open and setup the /var/mixmaster/mix.cfg file.  
-After setup, execute this:  
+After setup, execute this to change white spaces to tabs:  
 &nbsp;&nbsp;&nbsp;unexpand -a mix.cfg  
     
 Go to user mix:  

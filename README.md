@@ -20,11 +20,13 @@ unexpand -a mix.cfg
 Go to user mix:  
 su - mix  
     
-Starting mixmaster the firse time:  
+Starting mixmaster the first time:  
 mixmaster -G  
 mixmaster --update-stats  
 mixmaster --update-pinger-list  
 mixmaster -D  
 exit  
   
- 
+  
+After initial time, start just with  
+mixmaster -D  

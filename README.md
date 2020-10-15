@@ -13,7 +13,7 @@ Download this if on Debian 10+.
 &nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/libcrypto.so.1.0.0.tar.gz  
 &nbsp;&nbsp;&nbsp;tar zxvf libcrypto.so.1.0.0.tar.gz  
 Copy the libcrypto.so.1.0.0 file to /usr/lib/x86_64-linux-gnu/  
-&nbsp;&nbsp;&nbsp;cp libcrypto.so.1.0.0 /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0  
+&nbsp;&nbsp;&nbsp;cp libcrypto.so.1.0.0&nbsp;&nbsp;/usr/lib/x86_64-linux-gnu/  
     
 III.
 Open and setup the /var/mixmaster/mix.cfg file.  

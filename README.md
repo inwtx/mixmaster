@@ -2,34 +2,34 @@
 
 I.  
 In /root of your server:  
-wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/Debian_x64_mixmaster_3.1-1_amd64.tar.gz  
-tar zxvf Debian_x64_mixmaster_3.1-1_amd64.tar.gz  
-sudo dpkg -i ./Debian_x64_mixmaster_3.1-1_amd64.deb  
+&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/Debian_x64_mixmaster_3.1-1_amd64.tar.gz  
+&nbsp;&nbsp;&nbsp;tar zxvf Debian_x64_mixmaster_3.1-1_amd64.tar.gz  
+&nbsp;&nbsp;&nbsp;sudo dpkg -i ./Debian_x64_mixmaster_3.1-1_amd64.deb  
     
 Mixmaster should now be installed.  
     
 II. (Step II can be bypassed if installing on Unbuntu.)  
 Download this if on Debian 10+.  
-wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/libcrypto.so.1.0.0.tar.gz  
-tar zxvf libcrypto.so.1.0.0.tar.gz  
+&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/libcrypto.so.1.0.0.tar.gz  
+&nbsp;&nbsp;&nbsp;tar zxvf libcrypto.so.1.0.0.tar.gz  
 Copy the libcrypto.so.1.0.0 file to /usr/lib/x86_64-linux-gnu/  
-cp libcrypto.so.1.0.0 /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0  
+&nbsp;&nbsp;&nbsp;cp libcrypto.so.1.0.0 /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0  
     
 III.
 Open and setup the /var/mixmaster/mix.cfg file.  
 After setup, execute this:  
-unexpand -a mix.cfg  
+&nbsp;&nbsp;&nbsp;unexpand -a mix.cfg  
     
 Go to user mix:  
-su - mix  
+&nbsp;su - mix  
     
 Starting mixmaster the first time:  
-mixmaster -G  
-mixmaster --update-stats  
-mixmaster --update-pinger-list  
-mixmaster -D  
-exit  
+&nbsp;&nbsp;&nbsp;mixmaster -G  
+&nbsp;&nbsp;&nbsp;mixmaster --update-stats  
+&nbsp;&nbsp;&nbsp;mixmaster --update-pinger-list  
+&nbsp;&nbsp;&nbsp;mixmaster -D  
+&nbsp;&nbsp;&nbsp;exit  
   
   
 After the initial start, just start mixmaster with:  
-mixmaster -D  
+&nbsp;&nbsp;&nbsp;mixmaster -D  

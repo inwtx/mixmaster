@@ -7,9 +7,10 @@ I. In /root of your server:
     
 Mixmaster should now be installed.  
     
-II. (Step II can be bypassed if installing on Unbuntu. You can use number 1. or 2. install way below.)
+II. (Step II can be bypassed if installing on Unbuntu. You can use number 1. or 2. install method below.)
 &nbsp;&nbsp;&nbsp;1. Download this into /root if on Debian 10+.  
-&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/libcrypto.so.1.0.0.tar.gz
+&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/debian-x64-libcrypto-so-1-0-0.tar.gz
+&nbsp;&nbsp;&nbsp;tar zxvf 
 
 2. Download this into /root if on Debian 10+.  
 &nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/libcrypto.so.1.0.0.tar.gz  

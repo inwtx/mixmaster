@@ -1,8 +1,7 @@
 # Debian mixmaster remailer installation instructions.
 
 I. In /root of your server:  
-&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/Debian_x64_mixmaster_3.1-1_amd64.tar.gz  
-&nbsp;&nbsp;&nbsp;tar zxvf Debian_x64_mixmaster_3.1-1_amd64.tar.gz  
+&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/raw/master/Debian_x64_mixmaster_3.1-1_amd64.deb  
 &nbsp;&nbsp;&nbsp;sudo dpkg -i ./Debian_x64_mixmaster_3.1-1_amd64.deb  
     
 Mixmaster should now be installed.  
@@ -14,10 +13,10 @@ There are two ways of installing libcrypto.so.1.0.0
 In /root, run the following:  
 &nbsp;&nbsp;&nbsp;sudo dpkg -i debian-x64-libcrypto-so-1-0-0.deb  
 
-2. Download this into /root if on Debian 10+.  
+2. If the package doesn't install correctly for some reason, download this into /root if on Debian 10+.  
 &nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/libcrypto.so.1.0.0.tar.gz  
 &nbsp;&nbsp;&nbsp;tar zxvf libcrypto.so.1.0.0.tar.gz  
-Copy the libcrypto.so.1.0.0 file to /usr/lib/x86_64-linux-gnu/  
+Copy the libcrypto.so.1.0.0 file to /usr/lib/x86_64-linux-gnu/ if directory is present. Otherwise install in /usr/lib/.  
 &nbsp;&nbsp;&nbsp;cp libcrypto.so.1.0.0&nbsp;&nbsp;/usr/lib/x86_64-linux-gnu/  
     
 III.

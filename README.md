@@ -1,8 +1,8 @@
 # Debian mixmaster remailer installation instructions.
 
 I. In /root of your server:  
-&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/raw/master/Debian_x64_mixmaster_3.1-1_amd64.deb  
-&nbsp;&nbsp;&nbsp;sudo dpkg -i ./Debian_x64_mixmaster_3.1-1_amd64.deb  
+<b>&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/raw/master/Debian_x64_mixmaster_3.1-1_amd64.deb</b>  
+<b>&nbsp;&nbsp;&nbsp;sudo dpkg -i ./Debian_x64_mixmaster_3.1-1_amd64.deb</b>  
     
 Mixmaster should now be installed.  
     

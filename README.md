@@ -13,7 +13,7 @@ There are two ways of installing libcrypto.so.1.0.0
 In /root, run the following:  
 <b>&nbsp;&nbsp;&nbsp;sudo dpkg -i debian-x64-libcrypto-so-1-0-0.deb</b>  
 
-2. If the package doesn't install correctly for some reason, download this into /root if on Debian 10+.  
+2. If the package doesn't install correctly for some reason, download this into /root if on Debian 9+.  
 <b>&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/blob/master/libcrypto.so.1.0.0.tar.gz</b>  
 <b>&nbsp;&nbsp;&nbsp;tar zxvf libcrypto.so.1.0.0.tar.gz</b>  
 Copy the libcrypto.so.1.0.0 file to /usr/lib/x86_64-linux-gnu/ if directory exist. Otherwise copy it to /usr/lib/.  

@@ -8,7 +8,7 @@ Mixmaster should now be installed.
     
 II. (Step II can be bypassed if installing on Unbuntu.)  
 There are two ways of installing libcrypto.so.1.0.0  
-1. Download the package installer into /root if on Debian 10+.  
+1. Download the package installer into /root if on Debian 9+.  
 <b>&nbsp;&nbsp;&nbsp;wget --no-check-certificate https://github.com/inwtx/mixmaster/raw/master/debian-x64-libcrypto-so-1-0-0.deb</b>  
 In /root, run the following:  
 <b>&nbsp;&nbsp;&nbsp;sudo dpkg -i debian-x64-libcrypto-so-1-0-0.deb</b>  

@@ -1,6 +1,7 @@
 # Debian mixmaster remailer installation instructions.
 
 I. In /root of your server:  
+<b>&nbsp;&nbsp;&nbsp;apt-get install ssl-cert</b>  
 <b>&nbsp;&nbsp;&nbsp;wget --no-check-certificate http://www.zen19351.zen.co.uk/mixmaster31/debian84_mixmaster_3.1-1_amd64.deb</b>  
 <b>&nbsp;&nbsp;&nbsp;sudo dpkg -i ./debian84_mixmaster_3.1-1_amd64.deb</b>  
     

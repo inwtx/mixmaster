@@ -33,7 +33,12 @@ Execute this instruction to make sure owner is correct:
   
 Go to user mix:  
 <b>&nbsp;&nbsp;&nbsp;su - mix</b>  
-    
+  
+Setup mixmaster statistics download cronjob:  
+<b>&nbsp;&nbsp;&nbsp;<b>&nbsp;&nbsp;&nbsp;crontab -e</b>   
+Enter the next line:  
+<b>&nbsp;&nbsp;&nbsp;0 6,12,23 * * * /usr/bin/mixmaster-getstats</b>   
+  
 Starting mixmaster the first time:  
 <b>&nbsp;&nbsp;&nbsp;mixmaster -G</b>  
 <b>&nbsp;&nbsp;&nbsp;mixmaster --update-stats</b>  

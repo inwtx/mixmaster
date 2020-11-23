@@ -48,6 +48,9 @@ Starting mixmaster the first time:
 <b>&nbsp;&nbsp;&nbsp;mixmaster -D</b>  
 <b>&nbsp;&nbsp;&nbsp;exit</b>  
   
-  
 After the initial start, just start mixmaster with:  
 <b>&nbsp;&nbsp;&nbsp;mixmaster -D</b>  
+  
+To exit user mix type:  
+<b>&nbsp;&nbsp;&nbsp;exit</b>   
+  

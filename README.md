@@ -34,6 +34,8 @@ Execute this instruction to make sure owner is correct:
 Go to user mix:  
 <b>&nbsp;&nbsp;&nbsp;su - mix</b>  
   
+(The next instructions/modifications must always be executed while in user mix)  
+  
 Setup mixmaster statistics download cronjob:  
 <b>&nbsp;&nbsp;&nbsp;crontab -e</b>   
 Enter the next line:  

@@ -54,3 +54,80 @@ After the initial start, just start mixmaster with:
 To exit user mix type:  
 <b>&nbsp;&nbsp;&nbsp;exit</b>   
   
+  
+Example of my former inwtx.net mix.cfg file:
+  
+  
+```
+# mix.cfg -- installed Tue 27 Dec 15:30:00 CST 2021
+# NOTE! Place tabs between config names and parameter
+# Start with: mixmaster -D
+
+SENDMAIL        /usr/sbin/sendmail -t
+
+###EXTFLAGS testing
+
+# Where to store non-remailer messages (all messages deleted here):
+MAILBOX         mbox
+#MAILABUSE      mbox.abuse
+#MAILBLOCK      mbox.block
+#MAILUSAGE      mbox.usage
+#MAILANON       mbox.anon
+#MAILERROR      mbox.error
+#MAILBOUNCE     mbox.bounce
+
+REMAIL          y
+MIDDLEMAN       y
+
+PASSPHRASE      MakeThisAnything
+ALLPINGERSURL   https://raw.githubusercontent.com/remops/allpingers/master/allpingers.txt
+
+##/usr/bin/mixmaster-getstats  # elvis' stats pgm - must be executed daily in .forward 'mix' cron
+
+BINFILTER       y
+AUTOBLOCK       y
+AUTOREPLY       n
+
+ERRLOG          error.log
+VERBOSE         1
+KEYLIFETIME     43d
+KEYOVERLAPPERIOD        12d
+KEYGRACEPERIOD  5d
+MINREL          99
+
+# Remailer name and addresses
+REMAILERADDR    mix@inwtx.net
+ANONADDR        mix@inwtx.net
+COMPLAINTS      abuse@inwtx.net
+
+SHORTNAME       inwtx
+REMAILERNAME    inwtx Anonymous Remailer
+ANONNAME        The inwtx Anonymous Remailer
+
+# Supported formats:
+MIX             y
+PGP             n
+UNENCRYPTED     n
+
+# Maximum message size in kB (0 for no limit):
+# (Note: Due to the small size of the VPS, this probably should be limited.)
+SIZELIMIT       1024
+
+# Usenet news:
+NEWS            mail2news@neodome.net
+ORGANIZATION    Anonymous Posting Service
+MID             y
+
+# Remailing strategy:
+##MAILINTIME      1m
+SENDPOOLTIME    5m
+POOLSIZE        20
+RATE            65
+INDUMMYP        10
+OUTDUMMYP       90
+#INDUMMYP       0
+#OUTDUMMYP      0
+
+IDEXP           7d
+PACKETEXP       7d
+```
